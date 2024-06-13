@@ -1,0 +1,43 @@
+html {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+    background-image: url(images/samosa.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background-color: #000000CC;
+    color: #fca5a5;
+    margin: 0;
+    height: 12vh;
+    padding-top: 20px;
+    padding-bottom: 13px;
+    font-size: 3rem;
+}
+
+.header {
+    margin: 0; 
+    padding: 0; 
+}
+
+.contents{
+    display: flex;
+    margin-top: 5vh;
+}
+
+.text{
+    color: #7dd3fc;
+    background-color: #00000099;
+}
