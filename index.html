@@ -4,19 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
     <title>Restaurent Page</title>
 </head>
 <body>
 
-<div class="header"><h1>SnakOfast</h1></div>
+<div class="header"><h1>SnackOfast</h1></div>
 
-
-<div class="contents">
-    <div class="text">The best way to start your morning is here ! <br>Most delightful snacks in your town made <br>with authentic indian recipes and love  </div>
-    <div class="img"></div>
-    <div class="nav"></div>
+<div class="nav">
+    <button class="nav-btn" data-section="home">Home</button>
+    <button class="nav-btn" data-section="menu">Menu</button>
+    <button class="nav-btn" data-section="about">About</button>
+    <button class="nav-btn" data-section="contact">Contact</button>
 </div>
 
-    <script src="script.js"></script>
+
+<div id="content">
+    <div id="home" class="section"></div>
+    <div id="menu" class="section" style="display:none;"></div>
+    <div id="about" class="section" style="display:none;"></div>
+    <div id="contact" class="section" style="display:none;"></div>
+</div>
+<br><br>
+
+<div class="homecontent">
+     <h1 class="hungry">Feeling Hungry ?</h1>
+    <div class="homeinfo">    
+        <img src="images/chef.jpg" alt="chef" class="chef">
+    </div>
+    <br>
+    <h3 class="para">Dont worry we got you ! <br> The best snacks awaits you. <br>Enjoy the  best samosas made with love and our authentic recipe and have a blast. <br> Samosas to kachoris . Poha to dabeli nothing will disappoint you and fill not only your stomoch but soul with pleasure full of delightfull taste.</h3>
+</div>
+   
+
+    <script src="menu.js"></script>
+    <script src="contact.js"></script>
+    <script src="about.js"></script>
+    <script src="home.js"></script>
+
 </body>
 </html>
