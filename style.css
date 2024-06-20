@@ -5,39 +5,101 @@ html {
 }
 
 body {
-    margin: 0; 
+    margin: 0;
     padding: 0;
     background-image: url(images/samosa.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
 }
 
 h1 {
     text-align: center;
-    text-decoration: underline;
     font-weight: bold;
     letter-spacing: 3px;
+    font-family: "Spicy Rice", serif;
     background-color: #000000CC;
     color: #fca5a5;
     margin: 0;
     height: 12vh;
     padding-top: 20px;
     padding-bottom: 13px;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .header {
-    margin: 0; 
-    padding: 0; 
+    margin: 0;
+    padding: 0;
 }
 
-.contents{
+.nav {
+    width: 100%;
+    background-color: #000000CC;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-btn {
+    background-color: #000000E6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 1%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    font-family: "Noto Sans", sans-serif;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.nav-btn:hover {
+    transform: translateY(-7px);
+}
+
+
+
+#home {
+    display: block; 
+}
+
+.homeinfo{
     display: flex;
-    margin-top: 5vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+   
 }
 
-.text{
-    color: #7dd3fc;
-    background-color: #00000099;
+.chef{
+    border-radius: 50%;
+    height: 370px;
+    width: 380px;
+   
 }
+
+.hungry{
+    font-family: "Roboto", sans-serif;  
+    background-color: #000000CC ;
+    color: white;
+    background: transparent;
+    font-size: 3rem;
+    
+}
+
+.homecontent{
+    height: 700px;
+    width: 800px;
+    background-color: #000000CC ;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.para{
+    text-align: center;
+    
+}
+
