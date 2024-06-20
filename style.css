@@ -19,7 +19,7 @@ h1 {
     text-align: center;
     font-weight: bold;
     letter-spacing: 3px;
-    font-family: "Spicy Rice", serif;
+    font-family: "Playwrite NZ", cursive;
     background-color: #000000CC;
     color: #fca5a5;
     margin: 0;
@@ -51,7 +51,7 @@ h1 {
     cursor: pointer;
     outline: none;
     background: transparent;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Playwrite NZ", cursive;
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
@@ -81,7 +81,7 @@ h1 {
 }
 
 .hungry{
-    font-family: "Spicy Rice", serif;
+    font-family: "Playwrite NZ", cursive;
     background-color: #000000CC ;
     color:#dc2626 ;
     background: transparent;
